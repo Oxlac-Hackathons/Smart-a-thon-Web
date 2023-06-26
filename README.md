@@ -11,7 +11,7 @@ BookFinder - An Ultimate Online Library
 
 ![Book Finder](https://raw.githubusercontent.com/Oxlac-Hackathons/Smart-a-thon-Web/main/1.jpg)
 <br>
-![Summaraiser](https://raw.githubusercontent.com/Oxlac-Hackathons/Smart-a-thon-Web/main/1.jpg](https://raw.githubusercontent.com/Oxlac-Hackathons/Smart-a-thon-Web/main/4-img.jpg)https://raw.githubusercontent.com/Oxlac-Hackathons/Smart-a-thon-Web/main/4-img.jpg)
+![Summaraiser](https://raw.githubusercontent.com/Oxlac-Hackathons/Smart-a-thon-Web/main/4-img.jpg)
 
 
 
