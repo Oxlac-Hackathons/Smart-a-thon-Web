@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Scout | Ultimate Book Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Space+Grotesk&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+  <script defer="" src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+</head>
+
+<body>
+
+  <h1>Book Finder | <a href="textSummarise.html">Summariser</a></h1>
+  <h2>An Ultimate Online Library</h2>
+
+  <!-- segmented control -->
+  <!-- <div class="segmented-control">
+    <button id="titleBtn" class="active">Search By Title</button>
+    <button id="genreBtn">Search By Genre</button>
+  </div> -->
+
+  <div class="parent">
+
+    <div class="toggle-wrapper">
+
+      <div class="segmented-control">
+        <input type="radio" name="flight-type" value="coach" id="titleBtn" checked>
+        <label for="titleBtn">Search By Title</label>
+
+        <input type="radio" name="flight-type" value="business" id="genreBtn">
+        <label for="genreBtn">Search By Subject</label>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="content">
+
+    <div id="titleField" class="field title">
+      <form id="titleForm" class="slide-left">
+        <h2 class="form-heading">Book Search Made Easy!</h2>
+        <h3>Discover your perfect book match by searching book titles or keywords.
+          Even if you only remember fragments of a book's title, our app can help you uncover the perfect match.</h3>
+        <input type="text" id="titleInput" placeholder="Enter a book title/keywords" autocomplete="off" required>
+        <select id="titleLanguage">
+          <option value="en" selected>Select a Language</option>
+          <option value="hi">Hindi</option>
+        </select>
+        <button id="fetchButton" class="mainBtn text-ani" type="submit">Search by Title</button>
+      </form>
+    </div>
+
+    <div id="titleField" class="field genre">
+      <form id="genreForm" class="slide-right">
+        <h2 class="form-heading">Hunt for Books & Author Treasures!</h2>
+        <h3>Explore domains and unlock top book recommendations tailored to your interests.
+          Optionally, delve into an author's works within the chosen subject and find hidden gems.</h3>
+        <input type="text" id="genreInput" placeholder="Enter a genre" autocomplete="off" required>
+        <input type="text" id="authorInput" placeholder="Enter an author (optional)" autocomplete="off">
+        <select id="genreLanguage">
+            <option value="en" selected>Select a Language</option>
+            <option value="hi">Hindi</option>
+          </select>
+        <button id="fetchButton2" class="mainBtn text-ani" type="submit"><span class="text-ani">Search by Subject</span></button>
+      </form>
+    </div>
+
+    <!-- <a id="down-arrow" href="#recommendations" class="down-arrow invisibile"><i class="fas fa-arrow-circle-down fa-2x"></i></a> -->
+
+  </div>
+
+
+  <!-- Recommendations Container -->
+  <div id="recommendations"></div>
+
+  <div id="errorSection"></div>
+
+  <!-- Show More Button -->
+  <button id="showMoreButton" class="showMoreBtn">More Books</button>
+
+  <!-- footer section -->
+  <h3 class="footerText">A Product of Oxlac-Web</h3>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/928fde7a55.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

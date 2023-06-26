@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summeriser</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Space+Grotesk&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/928fde7a55.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1><a href="index.html">Book Finder</a> | Summariser</h1>
+    <h5>Condense text effortlessly. Get instant summaries. Unlock key insights with our powerful text summarization feature.</h5>
+
+    
+    <form action="">
+        <input class="input" type="url" id="urlInput" name="urlInput" placeholder="Place a URL" required>
+      
+        <textarea class="input" id="textInput" name="textInput" cols="30" rows="10" placeholder="Place your text" required></textarea>
+
+        <div class="quantitiy">
+            <label class="sentencesLabel" for="sentences">Number Of Sentences:</label>
+            <input type="number" id="sentences" name="sentences" min="1" max="20">
+        </div>
+      
+        <button id="summBtn" class="submitBtn text-ani" type="submit">Summarise</button>
+        <!-- <button>Submit</button> -->
+      </form>
+      
+    
+
+    <div id="output" class="outputDiv">
+        <p class="output"></p>
+    </div>
+    <h3 id="footerText">A Product of Oxlac-Web</h3>
+
+    <script src="textSummarise.js"></script>
+    
+</body>
+</html>
