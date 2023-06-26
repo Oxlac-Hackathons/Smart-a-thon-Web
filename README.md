@@ -9,7 +9,7 @@ BookFinder - An Ultimate Online Library
 
 # Screen Shots:
 
-![OpenAI Logo](https://example.com/images/openai_logo.png)
+![Book Finder](https://raw.githubusercontent.com/Oxlac-Hackathons/Smart-a-thon-Web/main/1.jpg)
 
 
 
